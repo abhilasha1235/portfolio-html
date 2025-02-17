@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Project</title>
+    <link rel="stylesheet" href="css/style.css">
+<script>
+    
+    function mySubmitButton(){
+        const name= document.getElementById("name").value;
+       
+    const email=document.getElementById("email").value;
+    const message=document.getElementById("Message").value;
+              const mydetails = document.getElementById("printDetails");
+              mydetails.innerText="Name:"+name+"\n"+ 
+              "Email:"+email+"\n"+" Message:"+message;
+    console.log(name);
+    console.log(email);
+    console.log(message);
+    }
+   
+</script>
+</head>
+<body>
+    <section class="banner">
+    <header>
+        <img src="image.jpg" alt="user_image" >
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    
+   </section> 
+   <section class="banner1">
+    <div class="content">
+        <h2>I am <span id="text"></span></h2>
+        <p>Hello! I'm Abhilasha Pandey, a passionate and dedicated Web developer.
+             I specialize in creating innovative and effective digital solutions.</p>
+             <br>
+        <button>Join Us</button>
+        <button class="chat">Let's Chat</button>
+    </div>
+    <div class="dayNight">
+ 
+        <ion-icon name="sunny-outline"></ion-icon>
+    </div>
+   </section>
+   
+   <section class="partent">
+    <div class="p1">
+    <div class="ch1">
+        <img src="image.jpg" alt="user_image" >     
+
+    </div>
+    <div class="ch2">
+        <h3>About <span>Me</span></h3>
+        <b>Frontend Developer</b>
+        <br><br>
+        <p>I’m Abhilasha Pandey , a passionate web developer with
+             over 1 years of experience in building dynamic, responsive, and user-friendly websites."
+        </p>
+        <br>
+        <button >Read more</button>
+    </div>
+    </div>
+</div>
+   </section>
+   <section class="banner3">
+    <div class="content1">
+        <div class="skill1">
+            <h3>My Skill</h3>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <br>
+            <button>See Project</button>
+           </div>
+        <div class="skill2">
+            <ol type="1">
+                <li>HTMl & CSS</li>
+                <li>Java Script</li>
+                <li>Bootstrap</li>
+                <li>React</li>
+            </ul>
+
+        </div>
+    </div>
+   </section>
+   <section class="partent">
+     <div class="Project">
+        <h2>Latest Project</h2>
+
+        <img src="image.jpg" alt="user_image" >     
+        <img src="image.jpg" alt="user_image" >     
+        <img src="image.jpg" alt="user_image" >     
+        <img src="image.jpg" alt="user_image" >     
+        <img src="image.jpg" alt="user_image" >     
+        <img src="image.jpg" alt="user_image" >     
+
+     </div>
+    
+
+   </section>
+
+   <section class="banner4">
+    <h3>Contact Me</h3>
+    <div class="contact1">
+       
+            <br><br>
+        <form action="#">
+          
+            <input type="text" name="Name" placeholder="Enter Your Name" id="name"/>&nbsp &nbsp;
+            <input type="email" name="Email" placeholder="Enter Your Email" id="email"/>
+            <br><br>
+            <textarea  id="Message">Message</textarea>
+            <br>
+            <button type="submit" onclick="mySubmitButton();">Submit</button>
+            <br><br>
+        </form>
+    
+        
+    </div>
+    <div>
+        <p id="printDetails" style="color: brown;">Data not found!</p>
+    </div>
+    </div>
+   </section>
+   
+       
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="js/script.js"></script>
+
+
+    
+
+</div>
+</body>
+</html>
